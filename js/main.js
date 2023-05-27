@@ -18,6 +18,6 @@ function apagar() {
 
 function confirma() {
     if (resultado.textContent != 'Erro') {
-        document.getElementById("resultado").innerHTML = eval(resultado.innerHTML)
+        document.getElementById("resultado").innerHTML = eval(resultado.innerHTML).toFixed(2)
     }
 }
